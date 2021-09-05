@@ -1,0 +1,56 @@
+:root {
+    --vermelho: #e50914; 
+    --preto: #141414;
+    --branco: #fff;
+    --cinza-claro: #e5e5e5;
+    --cinza-escuro: #a5a5a5;
+}
+
+body {
+    background-color: var(--preto);
+    color: var(--branco);
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header .container {
+    padding: 1.325rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.netflix-logo {
+    margin-right: 2.525rem;
+    max-width: 93px;
+}
+
+.header-menu {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-menu_link {
+    color: var(--cinza-claro);
+    padding: .3rem;
+    margin-right: .4rem;
+    text-decoration: none;
+    transition: color .4s ease;
+}
+
+.header-menu_link:nth-child(1) {
+    color: var(--branco);
+    font-weight: 700;
+}
+
+.header-menu_link:last-child {
+    margin-right: 0;
+}
+
+.header-menu_link:hover {
+    color: var(--cinza-escuro);
+}
