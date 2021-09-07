@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <title>Netflix</title>
+    <!-- owl css -->
+    <link rel="stylesheet" href="./assets/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/owl/owl.theme.default.min.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/categories.css">
+    <link rel="stylesheet" href="./assets/css/movie-list.css">
 </head>
 <body>
-    <header>
+    <header id="nav">
         <div class="container">
             <img src="./assets/img/netflix-logo.png" class="netflix-logo" alt="Netflix Logo">
             <nav class="header-menu">
@@ -44,6 +51,51 @@
         </div>
     </main>
 
+    <div class="categories">
+        <div class="container">
+            <h4 class="categories-title">Filmes</h4>
+        </div>
+    </div>
+
+    <div class="movies-list">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini1.jpg" alt="Filme 1">
+            </div>
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini2.jpg" alt="Filme 2">
+            </div>
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini3.jpg" alt="Filme 3">
+            </div>
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini4.jpg" alt="Filme 4">
+            </div>
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini5.jpg" alt="Filme 5">
+            </div>
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini6.jpg" alt="Filme 6">
+            </div>
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini7.jpg" alt="Filme 7">
+            </div>
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini8.jpg" alt="Filme 8">
+            </div>
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini9.jpg" alt="Filme 9">
+            </div>
+            <div class="item">
+                <img class="box-film" src="./assets/img/mini10.jpg" alt="Filme 10">
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/972dec05a9.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/owl/jquery.min.js"></script>
+    <script src="./assets/js/owl/owl.carousel.min.js"></script>
+    <script src="./assets/js/setup.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
