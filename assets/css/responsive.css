@@ -1,38 +1,67 @@
 @media screen and (max-width: 700px) {
+    .container {
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+
     .netflix-logo {
         width: 73px;
     }
 
     header .header-menu {
-        font-size: 1.2vw;
+        font-size: .725rem;
     }
 
     .container .main-movie_title {
+        font-size: 2rem;
         margin-top: 14%;
+    }
+
+    .container .main-movie_description {
+        font-size: 1rem;
+        margin-bottom: 10vw;
+    }
+
+    .button-container .button {
+        font-size: .9rem;
+        padding-right: .8rem;
+        padding-left: .8rem;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .container {
-        margin-left: 2.75rem !important;
-        margin-right: 2.75rem !important;
-    }
-
     .netflix-logo {
         width: 53px;
     }
 
     header .header-menu {
-        font-size: 1vw;
+        font-size: .575rem;
     }
 
     .container .main-movie_title {
+        font-size: 1.5rem;
         margin-top: 18%;
+    }
+
+    .container .main-movie_description {
+        font-size: .75rem;
+    }
+
+    .button-container .button {
+        font-size: .71rem;
+        padding-right: .8rem;
+        padding-left: .8rem;
     }
 }
 
 @media screen and (max-width: 320px) {
     .netflix-logo {
         width: 33px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .main-movi-description {
+        width: 60%;
     }
 }

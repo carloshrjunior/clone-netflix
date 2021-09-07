@@ -12,17 +12,16 @@
 }
 
 .main-movie_title {
-    font-size: 3vw;
+    font-size: 3rem;
     font-weight: 700;
     margin-top: 10%;
     text-transform: uppercase;
 }
 
 .main-movie_description {
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     margin-top: 10px;
     margin-bottom: 3vw;
-    width: 60%;
 }
 
 .main-movie_title, .main-movie_description {
@@ -34,10 +33,10 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     font-weight: 700;
     margin-right: 10px;
-    padding: .8vw 1.6vw;
+    padding: .8rem 1.5rem;
 }
 
 .button i {
